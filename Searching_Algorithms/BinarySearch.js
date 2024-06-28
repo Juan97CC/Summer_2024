@@ -5,6 +5,13 @@
  * Binary search ONLY works on sorted arrays!
  *
  * Divide and Conquer
+ *
+ * Time Complexity BIG O:
+ *
+ * Best case: O(1)
+ *
+ * Worst Case: O(log n)
+ *
  */
     let states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut',
     'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa',
@@ -22,7 +29,7 @@
             mid =  Math.floor((low + high) / 2); // must use Math.floor to avoid float
              if (arr[mid] === value) return value + " found. " + mid;
              if (arr[mid] > value) high = mid - 1; // since its not mid we can subtract one
-             if (arr[mid] < value) low = mid + 1; 
+             if (arr[mid] < value) low = mid + 1;
         }
         return "Not found";
 
