@@ -1,4 +1,4 @@
-
+//Short is word we are searching for in the string long.
 function naiveSearch(long, short){
     let totalCount = 0;
     for (let i = 0; i < long.length; i++) {
