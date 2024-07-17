@@ -9,7 +9,7 @@
  * Time Complexity : Big O n^2
  * - Good if you want to minimize swaps
  *
- *
+ * Doesn't perform well Best is still O(n^2)
  */
 
 
