@@ -13,6 +13,12 @@
  *        a new array which is also sorted, and consists of all of the elements
  *        in the two input arrays.
  *
+ *
+ *       BIG O
+ *       Best/Average/Worst time Complexity is O(n log n)
+ *       Space Complexity is O(n)
+ *
+ *
  */
 
 
@@ -83,7 +89,7 @@ function mergeSort(array){
 
    //Then our helper class
     return merge(leftSide, rightSide);
-    
+
 
 
 
